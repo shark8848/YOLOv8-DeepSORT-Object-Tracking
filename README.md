@@ -70,5 +70,4 @@ python predict.py model=yolov8l.pt source="test3.mp4" show=True
 ## Bug Fixes
 Fixed DeepSORT compatibility with PyTorch 2.6+:
 Resolved runtime errors caused by API changes in PyTorch 2.6, ensuring stable object tracking with the latest PyTorch versions.
-(Issue: #123, Commit: abc123)
 
