@@ -71,11 +71,6 @@ python predict.py model=yolov8l.pt source="test3.mp4" show=True
 Fixed DeepSORT compatibility with PyTorch 2.6+:
 Resolved runtime errors caused by API changes in PyTorch 2.6, ensuring stable object tracking with the latest PyTorch versions.
 ## Bug identified by:[@shark8848](https://github.com/shark8848)
-<a href="https://github.com/shark8848" target="_blank">
-  <img src="https://github.com/shark8848.png?size=200" 
-       width="100" 
-       style="border-radius: 50%; border: 3px solid #2f9e44; transition: transform 0.3s ease;" 
-       alt="SharkyAI"
-       onmouseover="this.style.transform='scale(1.1)'" 
-       onmouseout="this.style.transform='scale(1)'">
+<a href="https://github.com/shark8848">
+  <img src="https://github.com/shark8848.png?size=100" width="100" style="border-radius: 50%;" alt="头像">
 </a>
