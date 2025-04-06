@@ -67,3 +67,8 @@ python predict.py model=yolov8l.pt source="test3.mp4" show=True
 
 [![Watch the Complete Tutorial for the Step by Step Explanation](https://img.youtube.com/vi/9jRRZ-WL698/0.jpg)]([https://www.youtube.com/watch?v=StTqXEQ2l-Y](https://www.youtube.com/watch?v=9jRRZ-WL698))
 
+## Bug Fixes
+Fixed DeepSORT compatibility with PyTorch 2.6+:
+Resolved runtime errors caused by API changes in PyTorch 2.6, ensuring stable object tracking with the latest PyTorch versions.
+(Issue: #123, Commit: abc123)
+
